@@ -1,6 +1,7 @@
 package AlgoDat.triePackage;
 
 import AlgoDat.actionsPackage.IActionAtInsert;
+import AlgoDat.mapPackage.IMapFactory;
 
 import java.util.Iterator;
 
@@ -10,6 +11,10 @@ import java.util.Iterator;
 public class Trie implements ITrie{
     public Trie(){
         //TODO: Factory
+    }
+
+    public Trie(IMapFactory mapFactory) {
+
     }
 
     @Override
@@ -23,6 +28,4 @@ public class Trie implements ITrie{
         //TODO: Implement
         return null;
     }
-}
-
 }
